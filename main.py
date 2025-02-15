@@ -24,7 +24,7 @@ DATA_DIR = "/data"  # Ensure operations are restricted to /data
 
 # AI details
 OPENAI_API_URL = "https://aiproxy.sanand.workers.dev/openai/v1/chat/completions"
-OPENAI_API_KEY = os.environ["API_TOKEN"]
+OPENAI_API_KEY = os.environ["AIPROXY_TOKEN"]
 
 headers = {"Authorization": f"Bearer {OPENAI_API_KEY}", "Content-Type": "application/json"}
 

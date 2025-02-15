@@ -1,7 +1,7 @@
 # TDS Project 1
 
 The AI API provided by the university is used.
-The API_TOKEN is detected from the environment variable assigned when running the docker container.
+The AIPROXY_TOKEN is detected from the environment variable assigned when running the docker container.
 <br>
 <br>
 To pull the docker image:
@@ -14,10 +14,10 @@ sudo docker pull quasarleaf/my-fastapi-app:latest
 To run the container:
 
 ```
-sudo docker run -p 8000:8000 -e API_TOKEN=$API_TOKEN quasarleaf/my-fastapi-app:latest
+sudo docker run -p 8000:8000 -e AIPROXY_TOKEN=$AIPROXY_TOKEN quasarleaf/my-fastapi-app:latest
 ```
 
-Where API_TOKEN is the api token of the AI.
+Where AIPROXY_TOKEN is the api token of the AI.
 
 Example request to the project:
 
