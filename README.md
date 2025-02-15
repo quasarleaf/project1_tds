@@ -25,3 +25,5 @@ Example request to the project:
 curl -X 'POST' "http://127.0.0.1:8000/run?task=detect%20text%20from%20image" -H "accept: application/json"
 ```
 
+
+
