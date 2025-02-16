@@ -10,3 +10,6 @@ soundfile
 SpeechRecognition
 pydub
 beautifulsoup4
+wget
+faker
+uv

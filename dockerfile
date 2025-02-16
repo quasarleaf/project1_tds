@@ -16,6 +16,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libopencv-dev \
     curl \
     git \
+    nodejs \
+    npm \
     && rm -rf /var/lib/apt/lists/*  # Clean up to reduce image size
 
 # Copy only requirements first (for efficient caching)
